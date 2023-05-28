@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import { Calculator } from "./component/Calculator";
 import { Pomodoro } from "./component/Pomodoro";
 
 function App() {
@@ -15,7 +14,7 @@ const [active, setActive] = useState(true);
       </div>
 
 
-      <Calculator active={active}/>
+//       <Calculator active={active}/>
       <Pomodoro active={!active}/>
     </div>
   );
